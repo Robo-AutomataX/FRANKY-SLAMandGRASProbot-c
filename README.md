@@ -18,7 +18,6 @@ To use and contribute to this project, you will need:
 - ROS2 installed on your system.
 - The project-specific packages and dependencies mentioned in the documentation.
 
-Please refer to the provided documentation in the "docs" folder for detailed instructions on installing and configuring the project.
 
 ## Contribution
 
