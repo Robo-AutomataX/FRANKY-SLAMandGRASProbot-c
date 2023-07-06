@@ -1,3 +1,6 @@
+#This node the keyboard preseed by the user and then published in a variable
+
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String

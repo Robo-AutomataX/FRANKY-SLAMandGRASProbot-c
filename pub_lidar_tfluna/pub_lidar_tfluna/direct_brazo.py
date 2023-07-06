@@ -1,4 +1,6 @@
-#!usr/bin/env python3
+#This node read the information by the hand and then calculate the angle
+#in SERVOS and then publish in a variable
+
 
 import serial
 import cv2

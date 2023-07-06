@@ -1,3 +1,5 @@
+#This node create a subscriber and read the keyboards press
+
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import String
