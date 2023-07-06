@@ -26,3 +26,4 @@ We welcome contributions to our FRANKY project! If you have ideas, improvements,
 
 Thank you for your interest in the FRANKY project!
 
+buenos días
