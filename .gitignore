@@ -1,4 +1,5 @@
 
 
 .vscode
-robot_programs/__pycache__/
+robot_programs/
+    __pycache__/
