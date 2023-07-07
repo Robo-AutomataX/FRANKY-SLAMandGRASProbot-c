@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/brayan/Directorio/install/robot_programs/lib/python3.10/site-packages",
+        "/home/brayan/franky/install/pub_lidar_tfluna/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/brayan/Directorio/install/robot_programs/lib/python3.10/site-packages",
+        "/home/brayan/franky/install/pub_lidar_tfluna/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
