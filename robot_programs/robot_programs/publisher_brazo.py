@@ -1,4 +1,6 @@
-#!usr/bin/env python3
+#This node read the information by the hand and then calculate the angle
+#in SERVOS and then publish in a variable
+
 
 import serial
 import cv2
@@ -12,13 +14,14 @@ class Mynode(Node):
     def __init__(self):
 
         self.counter = 0
-        super().__init__("first_node") #it is name that will appear in graph
-        self.create_timer(0.1, self.timer_callback) #timer que llama a timer.callback cada 1 segundo
+        super().__init__("brazo_robotico") #it is name that will appear in graph
+        self.create_timer(1.0, self.timer_callback) #timer que llama a timer.callback cada 1 segundo
+   
     def timer_callback(self):
         # config
         write_video = True
-        debug = True
-        cam_source = 0 #"http://192.168.2.242:4747/video" #0 0,1 for usb cam, "http://192.168.1.165:4747/video" for webcam
+        debug = False
+        cam_source = 0 # "http://192.168.2.242:4747/video" #0 0,1 for usb cam, "http://192.168.1.165:4747/video" for webcam
 
         if not debug:
             ser = serial.Serial('/dev/ttyACM0', 115200)
@@ -172,3 +175,5 @@ def main(args=None):
 
 if __name__ == "__main__":
       main()
+
+
